@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Adidas©</title>
+		<link rel="stylesheet" href="adidas.css" />
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	</head>
+	<body>
+		<header>
+			<h1>Adidas©</h1>
+
+			<div class="container-icon">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Zapatos Nike</p>
+                            <span class="precio-producto-carrito">$80</span>
+                        </div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$200</span>
+                    </div>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://izicop.com/cdn/shop/files/snakerstoreAdidas_Campus_Light_Bad_Bunny_Wild_Moss-ID7950-0.png?v=1683277399"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Adidas Campus Light Bad Bunny Wild Moss</h2>
+					<p class="price">$80</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://izicop.com/cdn/shop/products/snakerstoreAdidas_Yeezy_Boost_350_V2_Bone-HQ6316-1_1024x1024.jpg?v=1673891155"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Adidas Yeezy Boost 350 V2 Bone All colors</h2>
+					<p class="price">$73.99</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://izicop.com/cdn/shop/files/snakerstoreAdidas_Yeezy_Foam_RNNR_MX_Brown_Blue-ID4126-0_1024x1024.png?v=1685699911"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Adidas Yeezy Foam RNNR MX Brown Blue</h2>
+					<p class="price">$81.99</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://izicop.com/cdn/shop/files/snakerstoreAdidas_Gazelle_Indoor_Collegiate_Green_Lucid_Pink-IG5929-0_1024x1024.png?v=1687510848"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Adidas Gazelle Indoor Collegiate Green Lucid Pink</h2>
+					<p class="price">$90</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img src="https://izicop.com/cdn/shop/files/snakerstoreAdidas_Campus_00_s_Crystal_White_Core_Black-GY0042-0_1024x1024.png?v=1683773996" alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Adidas Campus 00's Crystal White Core Black</h2>
+					<p class="price">$77.99</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+
+        <footer id="contacto">
+            <div class="contenedor footer-content">
+             <div class="contact-us">
+                <h2 class="brand">Tus Zapas©</h2>
+                <p>Llama por el numero +(34)-(999)-(999)</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" class="social-media-icon">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="https://twitter.com/" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="https://www.instagram.com/" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+        </footer>
+
+        <script src="adidas.js"></script>
+	</body>
+</html>
